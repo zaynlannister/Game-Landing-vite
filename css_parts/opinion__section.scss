@@ -1,0 +1,72 @@
+.opinion__section {
+  background-image: url("../images/opinion-block_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__info {
+    width: 400px;
+
+    &-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    &-header {
+      font-size: 80px;
+      font-weight: bold;
+    }
+
+    &-text {
+      font-size: 18px;
+      margin: 15px 0 28px;
+    }
+  }
+
+  &__comments-card {
+    background-color: #151515;
+    border-radius: 6px;
+    padding: 20px 45px 20px 20px;
+  }
+}
+
+.comments__card {
+  &-author {
+    display: flex;
+    align-items: center;
+
+    &-image img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    &-name {
+      font-size: 24px;
+      color: #FFB548;
+      margin-left: 15px;
+    }
+  }
+
+  &-text {
+    font-size: 18px;
+    margin: 14px 0;
+    width: 400px;
+  }
+
+  &-data {
+    font-size: 14px;
+    opacity: .5;
+  }
+
+  &-middle {
+    margin: 40px 0;
+    transform: translateX(-70px);
+  }
+}

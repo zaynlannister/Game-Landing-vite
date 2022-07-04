@@ -1,0 +1,30 @@
+.modes {
+  background-color: #000;
+  background-image: url("./images/modes-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 950px;
+  padding: 140px 0 0;
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    position: relative;
+    width: 530px;
+
+    &-header {
+      border-bottom: 2px solid #fff;
+    }
+
+    &-title {
+      position: absolute;
+      right: 0;
+      width: 310px;
+      margin-top: 40px;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+body {
+  font-family: 'Bebas Neue', 'Arial';
+  padding: 0;
+  margin: 0;
+  color: #ffff;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: #222222;
+  color: #ffff;
+  padding: 15px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+
+}
+
+.primary-button {
+  border-radius: 2px;
+  background-color: #FFB548;
+  padding: 15px 18px;
+}
+
+.font__open-sans {
+  font-family: "Open Sans";
+}
+
+.headline {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 18px;
+}

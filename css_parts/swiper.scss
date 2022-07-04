@@ -1,0 +1,41 @@
+.swiper {
+  width: 450px;
+  height: 600px;
+
+  &-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    user-select: none;
+
+    & img {
+      border-radius: 10px;
+    }
+  }
+}
+
+body .swiper-button-next {
+  right: -64px;
+  left: auto;
+}
+
+body .swiper-button-prev {
+  left: -38px;
+  right: auto;
+}
+
+.swiper-pagination {
+  bottom: -5px!important;
+}
+
+body .swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+:root {
+  --swiper-theme-color: #ffffff!important;
+}
