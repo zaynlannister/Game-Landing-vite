@@ -15,5 +15,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    & a {
+      transition: 200ms ease;
+
+      &:hover {
+        color: #aaaaaa;
+      }
+    }
   }
 }

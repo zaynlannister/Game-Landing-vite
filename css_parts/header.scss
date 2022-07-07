@@ -21,10 +21,19 @@
     display: flex;
     justify-content: space-between;
     width: 530px;
+
+    &.active {
+      display: block;
+    }
   }
 
   &-nav a {
     font-size: 14px;
+    transition: 200ms ease;
+
+    &:hover {
+      color: #c1c1c1;
+    }
   }
 
   &-extra__content {

@@ -22,6 +22,11 @@
       &-input input {
         width: 380px;
         padding: 15px 26px;
+        transition: 200ms ease;
+
+        &:focus {
+          background-color: #3e3d3d;
+        }
       }
 
       &-button button {

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Bebas Neue', 'Arial';
+  font-family: 'Bebas Neue', 'Arial', sans-serif;
   padding: 0;
   margin: 0;
   color: #ffff;
@@ -28,13 +28,17 @@ button {
   border: none;
   padding: 10px;
   font-weight: bold;
-
 }
 
 .primary-button {
   border-radius: 2px;
   background-color: #FFB548;
   padding: 15px 18px;
+  transition: 200ms ease;
+
+  &:hover {
+    background-color: #c68e3a;
+  }
 }
 
 .font__open-sans {
@@ -53,4 +57,8 @@ button {
 
 .paragraph {
   font-size: 18px;
+}
+
+.menu-icon {
+  display: none;
 }

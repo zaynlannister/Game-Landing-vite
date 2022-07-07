@@ -1,0 +1,103 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+
+  .modes {
+    & .container {
+      display: block;
+    }
+
+    &__text {
+      width: unset;
+      margin-bottom: 80px;
+
+      &-title {
+        position: unset;
+        right: unset;
+        width: unset;
+      }
+    }
+  }
+}
+
+@media (max-width: 1060px) {
+  .subscribe__section {
+    justify-content: center;
+
+    &-image {
+      position: absolute;
+
+      & img {
+        width: 307px;
+        height: 500px;
+        object-fit: contain;
+      }
+    }
+
+    &-info {
+      z-index: 1;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .opinion__section {
+    & .container {
+      display: block;
+    }
+
+    &__info {
+      width: unset;
+      margin-bottom: 60px;
+
+      &-button button {
+        padding: 15px 60px;
+      }
+    }
+  }
+
+  .comments__card-middle {
+    transform: unset;
+  }
+}
+@media (max-width: 820px) {
+  .header-nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    background-color: #3e3d3d;
+    height: 100vh;
+
+    & a {
+      display: block;
+      border-bottom: 1px solid #fff;
+      padding: 20px 10px;
+
+      &:hover {
+        background-color: #313030;
+      }
+    }
+  }
+
+  .header-extra__content {
+    width: 115px;
+
+    &-links {
+      display: none;
+    }
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 19px;
+    top: 30px;
+
+    & img {
+      width: 40px;
+    }
+  }
+}
