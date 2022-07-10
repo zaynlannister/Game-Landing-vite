@@ -57,6 +57,10 @@
     }
   }
 
+  .comments__card-text {
+    width: unset;
+  }
+
   .comments__card-middle {
     transform: unset;
   }
@@ -103,6 +107,32 @@
 }
 
 @media (max-width: 700px) {
+  .headline {
+    font-size: 60px;
+  }
+
+  .opinion__section__info-button button {
+    width: 100%;
+  }
+
+  .subscribe__section-info__action {
+    display: block;
+
+    &-input input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    &-button {
+      margin-top: 20px;
+
+      & button {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  }
+
   .footer {
     & .container {
       display: block;
@@ -127,7 +157,7 @@
 
 @media (max-width: 650px) {
   .swiper {
-    width: 360px;
+    width: 60%;
     height: 500px;
   }
 
