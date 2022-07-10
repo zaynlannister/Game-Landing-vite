@@ -101,3 +101,15 @@
     }
   }
 }
+
+
+@media (max-width: 650px) {
+  .swiper {
+    width: 360px;
+    height: 500px;
+  }
+
+  .subscribe__section-info__text {
+    width: unset;
+  }
+}
